@@ -33,3 +33,40 @@ let play = () => {
 }
 
 // Play music by mouse click
+
+let boom = () => {
+    let sound = document.getElementById("boom")
+    sound.play()
+}
+let clap = () => {
+    let sound = document.getElementById("clap")
+    sound.play()
+}
+let hihat = () => {
+    let sound = document.getElementById("hihat")
+    sound.play()
+}
+let kick = () => {
+    let sound = document.getElementById("kick")
+    sound.play()
+}
+let openhat = () => {
+    let sound = document.getElementById("openhat")
+    sound.play()
+}
+let ride = () => {
+    let sound = document.getElementById("ride")
+    sound.play()
+}
+let snare = () => {
+    let sound = document.getElementById("snare")
+    sound.play()
+}
+let tink = () => {
+    let sound = document.getElementById("tink")
+    sound.play()
+}
+let tom = () => {
+    let sound = document.getElementById("tom")
+    sound.play()
+}
