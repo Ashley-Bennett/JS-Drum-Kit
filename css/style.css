@@ -1,4 +1,103 @@
 
-body{
-    background-image: url(images/bg.png)
+.background{
+    /* background-image: url(images/drumkit.jpg) */
+    /* background-color: lightblue; */
+    background-image: url(https://www.musicskanner.com/wp-content/uploads/2016/07/become-a-better-drummer.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.boom{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    background: wheat;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: boom
+}
+
+.clap{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: clap
+}
+
+.hihat{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: hihat
+}
+
+.kick{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: kick
+}
+
+.openhat{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: openhat
+}
+
+.ride{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: ride
+}
+
+.snare{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: snare
+}
+
+.tink{
+    border: 2px solid whitesmoke;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: tink
+}
+
+.tom{
+    border: 2px solid whitesmoke;;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    grid-area: tom
+
+    
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    '. . . . . . . . . . .'
+    '. boom clap hihat kick openhat ride snare tink tom .'
+    '. . . . . . . . . . .';
+    grid-gap: 3% 3%;
+    grid-template-rows: 43vh 13vh 44vh;
 }

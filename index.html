@@ -7,17 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body input type="text"  onkeydown="play()">
-    <div class="buttons">
-        <button onclick="boom()">A<br>Boom</button>
-        <button onclick="clap()">S<br>Clap</button>
-        <button onclick="hihat()">D<br>Hihat</button>
-        <button onclick="kick()">F<br>Kick</button>
-        <button onclick="openhat()">G<br>Openhat</button>
-        <button onclick="ride()">H<br>Ride</button>
-        <button onclick="snare()">J<br>Snare</button>
-        <button onclick="tink()">K<br>Tink</button>
-        <button onclick="tom()">L<br>Tom</button>
+<body  input type="text"  onkeydown="play()">
+    <div class="background">
+        <!-- <img src="images/drumkit.jpg" alt="drums"> -->
+    </div>
+    <div  class="grid-container">
+        <p class="boom" onclick="boom()">A<br>Boom</p>
+        <p class="clap" onclick="clap()">S<br>Clap</p>
+        <p class="hihat" onclick="hihat()">D<br>Hihat</p>
+        <p class="kick" onclick="kick()">F<br>Kick</p>
+        <p class="openhat" onclick="openhat()">G<br>Openhat</p>
+        <p class="ride" onclick="ride()">H<br>Ride</p>
+        <p class="snare" onclick="snare()">J<br>Snare</p>
+        <p class="tink" onclick="tink()">K<br>Tink</p>
+        <p class="tom" onclick="tom()">L<br>Tom</p>
     </div>
     <div>
         <audio id ="boom" src="sounds/boom.wav"></audio>
