@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     font-family: 'Nunito', sans-serif;
+    user-select: none;
 }
 
 .bg-image {
@@ -20,10 +21,17 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: boom
+    grid-area: boom;
+    transition: all .07s ease;
 }
 
+.boom:hover{
+    cursor: pointer;
+}
 
+.boom:active{
+    transform: scale(0.9);
+}
 
 .clap{
     border: 2px solid slategrey;
@@ -33,6 +41,14 @@ body, html {
     height: 70px;
     text-align: center;
     grid-area: clap
+}
+
+.clap:hover{
+    cursor: pointer;
+}
+
+.clap:active{
+    transform: scale(0.9);
 }
 
 .hihat{
@@ -45,6 +61,14 @@ body, html {
     grid-area: hihat
 }
 
+.hihat:hover{
+    cursor: pointer;
+}
+
+.hihat:active{
+    transform: scale(0.9);
+}
+
 .kick{
     border: 2px solid slategrey;
     border-radius: 15%;
@@ -53,6 +77,14 @@ body, html {
     height: 70px;
     text-align: center;
     grid-area: kick
+}
+
+.kick:hover{
+    cursor: pointer;
+}
+
+.kick:active{
+    transform: scale(0.9);
 }
 
 .openhat{
@@ -65,6 +97,14 @@ body, html {
     grid-area: openhat
 }
 
+.openhat:hover{
+    cursor: pointer;
+}
+
+.openhat:active{
+    transform: scale(0.9);
+}
+
 .ride{
     border: 2px solid slategrey;
     border-radius: 15%;
@@ -73,6 +113,14 @@ body, html {
     height: 70px;
     text-align: center;
     grid-area: ride
+}
+
+.ride:hover{
+    cursor: pointer;
+}
+
+.ride:active{
+    transform: scale(0.9);
 }
 
 .snare{
@@ -85,6 +133,14 @@ body, html {
     grid-area: snare
 }
 
+.snare:hover{
+    cursor: pointer;
+}
+
+.snare:active{
+    transform: scale(0.9);
+}
+
 .tink{
     border: 2px solid slategrey;
     border-radius: 15%;
@@ -95,6 +151,14 @@ body, html {
     grid-area: tink
 }
 
+.tink:hover{
+    cursor: pointer;
+}
+
+.tink:active{
+    transform: scale(0.9);
+}
+
 .tom{
     border: 2px solid slategrey;;
     border-radius: 15%;
@@ -103,10 +167,19 @@ body, html {
     height: 70px;
     text-align: center;
     grid-area: tom
-
-    
 }
 
+.tom:hover{
+    cursor: pointer;
+}
+
+.tom:active{
+    transform: scale(0.9);
+}
+
+.playing{
+    transform: scale(0.9)
+}
 
 .grid-container{
     display: grid;
