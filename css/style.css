@@ -40,7 +40,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: clap
+    grid-area: clap;
+    transition: all .07s ease;
 }
 
 .clap:hover{
@@ -58,7 +59,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: hihat
+    grid-area: hihat;
+    transition: all .07s ease;
 }
 
 .hihat:hover{
@@ -76,7 +78,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: kick
+    grid-area: kick;
+    transition: all .07s ease;
 }
 
 .kick:hover{
@@ -94,7 +97,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: openhat
+    grid-area: openhat;
+    transition: all .07s ease;
 }
 
 .openhat:hover{
@@ -112,7 +116,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: ride
+    grid-area: ride;
+    transition: all .07s ease;
 }
 
 .ride:hover{
@@ -130,7 +135,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: snare
+    grid-area: snare;
+    transition: all .07s ease;
 }
 
 .snare:hover{
@@ -148,7 +154,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: tink
+    grid-area: tink;
+    transition: all .07s ease;
 }
 
 .tink:hover{
@@ -166,7 +173,8 @@ body, html {
     width: 70px;
     height: 70px;
     text-align: center;
-    grid-area: tom
+    grid-area: tom;
+    transition: all .07s ease;
 }
 
 .tom:hover{
@@ -178,7 +186,16 @@ body, html {
 }
 
 .playing{
-    transform: scale(0.9)
+animation-name: box-change;
+animation-duration: 0.07s;
+transition: all .07s ease;
+}
+
+@keyframes box-change{
+    0% {transform: scale(1)}
+    50% {transform: scale(0.9)}
+    100% {transform: scale(1)}
+
 }
 
 .grid-container{
